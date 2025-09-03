@@ -6,3 +6,7 @@
     - Leia o nome de uma pessoa e pergunte se tem silva no nome
    
 '''
+
+nome = str(input("Digite o seu nome completo: ")).lower()
+
+print("silva" in nome)

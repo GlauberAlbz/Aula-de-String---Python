@@ -6,3 +6,7 @@
     - Crie um programa que leia o nome de uma cidade e ele fale se ela começa com a palavra santo
    
 '''
+
+cidade = str(input("Digite o nome de uma cidade: "))
+
+print("Santo" in cidade.split()[0])

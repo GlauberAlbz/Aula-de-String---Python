@@ -44,7 +44,8 @@ divido = frase.split()
 print(divido[3])
 print(divido[3][2])
 
-"-".join(frase2)
+frase3 = "-".join(frase2)
+print(frase3)
 
 
 

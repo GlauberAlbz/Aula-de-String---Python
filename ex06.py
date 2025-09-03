@@ -8,3 +8,8 @@
     - Primeiro nome = Lindolfo
     - Segundo nome = Junior
 '''
+
+nome = str(input("Digite o seu nome completo: "))
+
+print(f"{nome.split()[0]}")
+print(f"{nome.split()[1]}")

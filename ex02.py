@@ -9,3 +9,11 @@
     - Centenas
     - Milhares
 '''
+
+num = str(input("digite um numero de 0 a 9999 (com 4 casas): "))
+print(num)
+caracteres = list(num)
+print(f"Unidade: {caracteres[3]}")
+print(f"Dezena: {caracteres[2]}")
+print(f"Centenas: {caracteres[1]}")
+print(f"Milhares: {caracteres[0]}")

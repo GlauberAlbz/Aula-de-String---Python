@@ -10,10 +10,21 @@
     - Milhares
 '''
 
-num = str(input("digite um numero de 0 a 9999 (com 4 casas): "))
-print(num)
-caracteres = list(num)
+num = str(input("digite um numero de 0 a 9999 (com 4 casas): ")) #Lê o Número que o usuário inseriu
+caracteres = list(num) # separa os caracteres
+# Exibição
 print(f"Unidade: {caracteres[3]}")
 print(f"Dezena: {caracteres[2]}")
 print(f"Centenas: {caracteres[1]}")
 print(f"Milhares: {caracteres[0]}")
+
+'''
+num = str(input("digite um numero de 0 a 9999 (com 4 casas): "))
+caracteres = list(num)
+caracteres2 = "".join(caracteres)
+print(f"Unidade: {caracteres2[3]}")
+print(f"Dezena: {caracteres2[2]}")
+print(f"Centenas: {caracteres2[1]}")
+print(f"Milhares: {caracteres2[0]}")
+
+'''

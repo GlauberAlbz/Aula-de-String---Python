@@ -12,5 +12,5 @@
 nome = str(input("Qual seu nome?"))
 nome_low = (nome.lower())
 print(f"Seu nome possui {nome_low.count("a")} Letras A's.")
-print(f"O primeiro A encontrado foi no caracter: {nome_low.find("a")}")
-print(f"O último A encontrado foi no caracter: {nome_low.rfind("a")}")
+print(f"O primeiro A encontrado foi no caracter: {nome_low.find("a")+1}")
+print(f"O último A encontrado foi no caracter: {nome_low.rfind("a")+1}")
